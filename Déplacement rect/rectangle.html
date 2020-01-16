@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rectangle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <div class="fatt" id="up">
+   	
+   
+
+   <script type="text/javascript">
+   	
+   	var bady = document.querySelector('body');
+      var rectangle = document.getElementById('up');
+     bady.onkeydown=function()
+     {
+         var touche = event.keyCode;
+         if (touche==38) 
+         {
+            rectangle.style.top = "10%";
+            setTimeout
+            (function()
+            {
+                rectangle.style.top = "60%";
+            }, 1000)
+         }
+     }
+ 
+   </script>
+   </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+	background-color: yellow ;
+	width: auto;
+	height: auto;
+}
+.fatt
+{
+    position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+
+  float: left;
+  left:45%;
+  top:60%;
+}
+
+---------------------------------------
